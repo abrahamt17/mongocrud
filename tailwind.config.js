@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  "scripts": {
+    "dev": "next dev"
+  },
   theme: {
     extend: {
       backgroundImage: {
